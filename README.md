@@ -1,5 +1,25 @@
 # stack
 
+## Todos
+
+**Frontend**
+
+- [ ] Change frontend framework to React from Vue.js
+- [ ] Create React project folder structure from !research
+- [ ] Create frontend structure with React
+- [ ] Add state managment library(redux or zustand or other things(research)) to frontend
+- [ ] a lot of things...
+
+**Backend**
+
+- [ ] Create UML diagram with PlantUML for backend
+- [ ] Create backend RESTful API structure with Node.js/Express
+- [ ] Add database(maybe mongoDB or other thing(research)) connection to backend
+- [ ] Add authentication(local or google or instagram auth) to backend
+- [ ] a lot of things...
+
+---
+
 A starter repository for MongoDB, Node.js, and Vue.js, with a local environment based on Docker.
 
 # Installation
