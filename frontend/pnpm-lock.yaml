@@ -8,18 +8,22 @@ specifiers:
   '@types/node': ^16.18.11
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
+  classnames: ^2.3.2
   eslint: 7.32.0
   eslint-config-prettier: ^8.6.0
   lint-staged: ^9.5.0
   prettier: ^2.8.3
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-icons: ^4.7.1
   react-scripts: 5.0.1
+  sass: ^1.57.1
   typescript: ^4.9.5
 
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
 
 devDependencies:
   '@testing-library/jest-dom': 5.16.5
@@ -29,11 +33,13 @@ devDependencies:
   '@types/node': 16.18.11
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
+  classnames: 2.3.2
   eslint: 7.32.0
   eslint-config-prettier: 8.6.0_eslint@7.32.0
   lint-staged: 9.5.0
   prettier: 2.8.3
-  react-scripts: 5.0.1_wqd2rv7mnv2tlq3q7iiiydst7q
+  react-scripts: 5.0.1_clbxjsk5vubjnmg25ezxr3xldi
+  sass: 1.57.1
   typescript: 4.9.5
 
 packages:
@@ -3596,6 +3602,10 @@ packages:
     resolution: {integrity: sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==}
     dev: true
 
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: true
+
   /clean-css/5.3.2:
     resolution: {integrity: sha512-JVJbM+f3d3Q704rF4bqQ5UUyTtuJ0JRKNbTKVEeujCCBoMdkEi+V+e8oktO9qGQNSvHrFTM6JZRXrUvGR1czww==}
     engines: {node: '>= 10.0'}
@@ -5762,6 +5772,10 @@ packages:
 
   /immer/9.0.19:
     resolution: {integrity: sha512-eY+Y0qcsB4TZKwgQzLaE/lqYMlKhv5J9dyd2RhhtGhNo2njPXDqU9XPfcNfa3MIDsdtZt5KlkIsirlo4dHsWdQ==}
+    dev: true
+
+  /immutable/4.2.2:
+    resolution: {integrity: sha512-fTMKDwtbvO5tldky9QZ2fMX7slR0mYpY5nbnFWYp0fOzDhHqhgIw9KoYgxLWsoNTS9ZHGauHj18DTyEw6BK3Og==}
     dev: true
 
   /import-fresh/2.0.0:
@@ -8675,6 +8689,14 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: true
 
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
@@ -8692,7 +8714,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-scripts/5.0.1_wqd2rv7mnv2tlq3q7iiiydst7q:
+  /react-scripts/5.0.1_clbxjsk5vubjnmg25ezxr3xldi:
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8742,7 +8764,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.1
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0_webpack@5.75.0
+      sass-loader: 12.6.0_sass@1.57.1+webpack@5.75.0
       semver: 7.3.8
       source-map-loader: 3.0.2_webpack@5.75.0
       style-loader: 3.3.1_webpack@5.75.0
@@ -9082,7 +9104,7 @@ packages:
     resolution: {integrity: sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==}
     dev: true
 
-  /sass-loader/12.6.0_webpack@5.75.0:
+  /sass-loader/12.6.0_sass@1.57.1+webpack@5.75.0:
     resolution: {integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -9103,7 +9125,18 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
+      sass: 1.57.1
       webpack: 5.75.0
+    dev: true
+
+  /sass/1.57.1:
+    resolution: {integrity: sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.2.2
+      source-map-js: 1.0.2
     dev: true
 
   /sax/1.2.4:
