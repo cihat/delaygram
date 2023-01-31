@@ -4,7 +4,7 @@
 
 **Frontend**
 
-- [X] Change frontend framework to React from Vue.js
+- [X] Change frontend framework to React/TypeScript from Vue.js
 - [ ] Create React project folder structure from !research
 - [ ] Create frontend structure with React
 - [ ] Add state managment library(redux or zustand or other things(research)) to frontend
@@ -20,7 +20,7 @@
 
 ---
 
-A starter repository for MongoDB, Node.js, and Vue.js, with a local environment based on Docker.
+A starter repository for MongoDB, Node.js, and React, with a local environment based on Docker.
 
 # Installation
 
