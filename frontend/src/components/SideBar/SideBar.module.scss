@@ -1,0 +1,39 @@
+@import 'src/assets/styles/mixins/mixins';
+
+.container {
+  // height: 100%;
+  background-color: red;
+  overflow-y: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@include respond-above(sm) {
+  .container {
+    background-color: green;
+    top: 0;
+    width: 72px;
+    height: 100%;
+  }
+}
+
+@include respond-above(md) {
+  .container {
+    background-color: yellow;
+    width: 244px;
+  }
+}
+
+@include respond-above(lg) {
+  .container {
+    background-color: blue;
+    width: 335px;
+  }
+}

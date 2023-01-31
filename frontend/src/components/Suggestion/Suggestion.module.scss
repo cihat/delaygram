@@ -1,0 +1,22 @@
+@import 'src/assets/styles/mixins/mixins';
+
+.container {
+  background-color: chocolate;
+  display: none;
+}
+
+@include respond-above(sm) {
+  .container {
+    // display: block;
+    height: 100%;
+  }
+}
+
+@include respond-above(md) {
+  .container {
+    display: block;
+    width: 320px;
+    height: 100vh;
+    padding-top: 30px;
+  }
+}

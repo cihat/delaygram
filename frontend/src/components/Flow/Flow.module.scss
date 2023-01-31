@@ -1,0 +1,39 @@
+@import 'src/assets/styles/mixins/mixins';
+
+.container {
+  min-height: 100vh;
+  background-color: pink;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+
+  main {
+    width: 470px;
+  }
+}
+
+@include respond-above(sm) {
+  .container {
+    background-color: purple;
+    margin-left: 72px;
+  }
+}
+
+@include respond-above(md) {
+  .container {
+    background-color: purple;
+    margin-left: 244px;
+
+    main {
+      margin-right: 64px;
+    }
+  }
+}
+
+@include respond-above(lg) {
+  .container {
+    background-color: purple;
+    margin-left: 335px;
+  }
+}

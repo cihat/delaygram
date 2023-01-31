@@ -1,9 +1,10 @@
 import React from 'react'
+import Feed from 'src/containers/Feed'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Hello Test 🤙🏻</h1>
+      <Feed />
     </div>
   )
 }
