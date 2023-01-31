@@ -1,6 +1,6 @@
 {
   "name": "instagram-clone-frontend",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "author": "Cihat Salik <cihatsalik1@gmail.com>",
   "homepage": "https://github.com/cihat/instagram-clone",
@@ -20,15 +20,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "^8.6.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^2.8.3",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^2.8.3",
     "react-scripts": "5.0.1",
+    "sass": "^1.57.1",
     "typescript": "^4.9.5"
   },
   "gitHooks": {
