@@ -4,7 +4,7 @@
 
 **Frontend**
 
-- [ ] Change frontend framework to React from Vue.js
+- [X] Change frontend framework to React from Vue.js
 - [ ] Create React project folder structure from !research
 - [ ] Create frontend structure with React
 - [ ] Add state managment library(redux or zustand or other things(research)) to frontend
@@ -89,7 +89,7 @@ These commands run the individual `lint` and `lint-staged` scripts in both the `
 
 MIT License
 
-Copyright (c) 2020 Armagan Amcalar
+Copyright (c) 2023 Cihat Salik
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
