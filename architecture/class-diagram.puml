@@ -1,0 +1,9 @@
+@startuml "Class Diagram"
+
+Title: Instragram Clone
+
+class User {
+}
+
+class Post {
+}
