@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "author": "Cihat Salik <cihatsalik1@gmail.com>",
-  "homepage": "https://github.com/cihat/instagram-clone",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
