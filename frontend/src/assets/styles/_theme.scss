@@ -1,11 +1,17 @@
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --text-color: #f0f0f0;
+  --icon-color: #fafafa;
   --ig-elevated-separator: rgba(54, 54, 54);
+  --ig-separator: rgba(38, 38, 38);
   --ig-primary-background: rgba(0, 0, 0);
+  --ig-secondary-background: rgba(18,18,18);
 }
 
-html[data-theme="light"] {
+html[data-theme='light'] {
   --text-color: #1a1a1a;
+  --icon-color: #262626;
   --ig-elevated-separator: rgba(54, 54, 54);
+  --ig-separator: rgba(219, 219, 219);
   --ig-primary-background: rgba(255, 255, 255);
+  --ig-secondary-background: rgba(250, 250, 250);;
 }

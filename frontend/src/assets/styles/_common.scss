@@ -1,4 +1,8 @@
-body, html {
+html {
+  background-color: var(--ig-secondary-background);
+}
+
+body {
   background-color: var(--ig-primary-background);
 }
 
