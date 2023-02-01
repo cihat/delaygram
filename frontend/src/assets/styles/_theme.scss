@@ -1,9 +1,11 @@
 html[data-theme="dark"] {
   --text-color: #f0f0f0;
-  --background-color: #1a1a1a;
+  --ig-elevated-separator: rgba(54, 54, 54);
+  --ig-primary-background: rgba(0, 0, 0);
 }
 
 html[data-theme="light"] {
   --text-color: #1a1a1a;
-  --background-color: #f0f0f0;
+  --ig-elevated-separator: rgba(54, 54, 54);
+  --ig-primary-background: rgba(255, 255, 255);
 }
