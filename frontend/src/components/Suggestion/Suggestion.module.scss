@@ -2,6 +2,8 @@
 
 .container {
   display: none;
+  border-left: 1px solid var(--ig-separator);
+  border-right: 1px solid var(--ig-separator);
 }
 
 @include respond-above(sm) {

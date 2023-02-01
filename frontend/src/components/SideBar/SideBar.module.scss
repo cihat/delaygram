@@ -13,18 +13,33 @@
   align-items: center;
   justify-content: center;
   background-color: var(--ig-primary-background);
+  border-top: 1px solid var(--ig-separator);
 
-  .icon_wrapper {
+  .logo_wrapper {
+      display: none;
+    }
+
+  .icons_wrapper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100%;
-    border-top: 1px solid var(--ig-elevated-separator);
 
-    .icon,
-    svg {
-      margin: 12px;
+    .inner_icon_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon,
+      svg {
+        margin: 12px;
+      }
+
+      h3 {
+        color: var(--text-color);
+        display: none;
+      }
     }
   }
 }
@@ -34,18 +49,26 @@
     top: 0;
     width: 72px;
     height: 100%;
+    border-right: 1px solid var(--ig-separator);
+    padding: 8px 12px 20px;
 
-    .icon_wrapper {
+    .icons_wrapper {
       flex-direction: column;
       justify-content: flex-start;
+      border-top: 0;
 
-      .icon,
-      svg {
-        box-sizing: content-box;
-        min-width: 24px;
-        min-height: 24px;
+      .inner_icon_wrapper {
         padding: 12px;
-        margin: 8px 0;
+        margin: 4px 0;
+
+        .icon,
+        svg {
+          box-sizing: content-box;
+          min-width: 24px;
+          min-height: 24px;
+          margin: 0;
+          padding: 0;
+        }
       }
     }
   }
@@ -53,10 +76,28 @@
 
 @include respond-above(md) {
   .container {
-    width: 244px;
+    width: 245px;
+    flex-direction: column;
+    align-items: flex-start;
 
-    .icon_wrapper {
+    .logo_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 25px 12px 16px;
+      margin-bottom: 20px;
+    }
+
+    .icons_wrapper {
       align-items: flex-start;
+
+      .inner_icon_wrapper {
+        h3 {
+          display: block;
+          padding-left: 16px;
+        }
+      }
     }
   }
 }
@@ -64,9 +105,5 @@
 @include respond-above(lg) {
   .container {
     width: 335px;
-
-    .icon_wrapper {
-
-    }
   }
 }

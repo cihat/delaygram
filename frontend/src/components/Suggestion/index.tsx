@@ -13,7 +13,7 @@ const Suggestion: React.FC = () => {
   return (
     <div className={cn(styles.container)}>
       <h1>Suggestion</h1>
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      <button onClick={toggleTheme}>Change Theme</button>
     </div>
   )
 }
