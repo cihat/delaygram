@@ -1,0 +1,9 @@
+html[data-theme="dark"] {
+  --text-color: #f0f0f0;
+  --background-color: #1a1a1a;
+}
+
+html[data-theme="light"] {
+  --text-color: #1a1a1a;
+  --background-color: #f0f0f0;
+}
