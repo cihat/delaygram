@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import React from 'react'
 import { Routes, Route, Outlet, Link } from 'react-router-dom'
 
 import SideBar from 'src/components/SideBar'
@@ -7,7 +7,16 @@ import Profile from 'src/pages/Profile'
 import Direct from 'src/pages/Direct'
 import Reels from 'src/pages/Reels'
 
-export default function App() {
+const LayoutStyle: React.CSSProperties = {
+  minHeight: '100vh',
+  position: 'relative',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  paddingTop: '56px',
+}
+
+const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -41,11 +50,4 @@ function NoMatch() {
   )
 }
 
-const LayoutStyle: CSSProperties = {
-  minHeight: '100vh',
-  position: 'relative',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  paddingTop: '56px',
-}
+export default App
