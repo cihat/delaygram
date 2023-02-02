@@ -4,8 +4,11 @@ import styles from './SideBar.module.scss'
 import { HomeIcon, MessageIcon, SearchIcon, VideoIcon, DelaygramLogo } from 'src/assets/icons'
 
 import cn from 'classnames'
+import { useTranslation } from 'react-i18next'
 
 const SideBar: React.FC = () => {
+  const { t } = useTranslation()
+
   return (
     <div className={cn('', styles.container)}>
       <div className={styles.logo_wrapper}>
@@ -15,23 +18,23 @@ const SideBar: React.FC = () => {
       <div className={styles.icons_wrapper}>
         <div className={styles.inner_icon_wrapper}>
           <HomeIcon />
-          <h3>Home</h3>
+          <h3>{t('home')}</h3>
         </div>
         <div className={styles.inner_icon_wrapper}>
           <SearchIcon />
-          <h3>Search</h3>
+          <h3>{t('search')}</h3>
         </div>
         <div className={styles.inner_icon_wrapper}>
           <VideoIcon />
-          <h3>Reels</h3>
+          <h3>{t('reels')}</h3>
         </div>
         <div className={styles.inner_icon_wrapper}>
           <MessageIcon />
-          <h3>Messages</h3>
+          <h3>{t('messages')}</h3>
         </div>
         <div className={styles.inner_icon_wrapper}>
           <MessageIcon />
-          <h3>Notifications</h3>
+          <h3>{t('notifications')}</h3>
         </div>
         {/* <img
           alt="user profile picture"

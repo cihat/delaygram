@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
 
-    .inner_icon_wrapper {
+    > div.inner_icon_wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -57,7 +57,7 @@
       justify-content: flex-start;
       border-top: 0;
 
-      .inner_icon_wrapper {
+      > div.inner_icon_wrapper {
         padding: 12px;
         margin: 4px 0;
 
@@ -92,7 +92,7 @@
     .icons_wrapper {
       align-items: flex-start;
 
-      .inner_icon_wrapper {
+      > div.inner_icon_wrapper {
         h3 {
           display: block;
           padding-left: 16px;
