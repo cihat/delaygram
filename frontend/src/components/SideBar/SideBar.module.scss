@@ -26,19 +26,28 @@
     width: 100%;
     height: 100%;
 
-    > div.inner_icon_wrapper {
+    ul {
       display: flex;
+      justify-content: space-evenly;
       align-items: center;
-      justify-content: center;
+      width: 100%;
 
-      .icon,
-      svg {
-        margin: 12px;
-      }
+      li {
+        a.inner_icon_wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
 
-      h3 {
-        color: var(--text-color);
-        display: none;
+          .icon,
+          svg {
+            margin: 12px;
+          }
+
+          h3 {
+            color: var(--text-color);
+            display: none;
+          }
+        }
       }
     }
   }
@@ -57,23 +66,28 @@
       justify-content: flex-start;
       border-top: 0;
 
-      > div.inner_icon_wrapper {
-        padding: 12px;
-        margin: 4px 0;
+      ul {
+        flex-direction: column;
+        li {
+          a.inner_icon_wrapper {
+            padding: 12px;
+            margin: 4px 0;
 
-        &:hover {
-          background-color: var(--ig-secondary-background);
-          border-radius: 50%;
-          cursor: pointer;
-        }
+            &:hover {
+              background-color: var(--ig-secondary-background);
+              border-radius: 50%;
+              cursor: pointer;
+            }
 
-        .icon,
-        svg {
-          box-sizing: content-box;
-          min-width: 24px;
-          min-height: 24px;
-          margin: 0;
-          padding: 0;
+            .icon,
+            svg {
+              box-sizing: content-box;
+              min-width: 24px;
+              min-height: 24px;
+              margin: 0;
+              padding: 0;
+            }
+          }
         }
       }
     }
@@ -98,20 +112,31 @@
     .icons_wrapper {
       align-items: flex-start;
 
-      > div.inner_icon_wrapper {
+      ul {
+        display: flex;
+        align-items: flex-start;
         width: 100%;
-        justify-content: flex-start;
 
-        &:hover {
-          background-color: var(--ig-secondary-background);
-          cursor: pointer;
-          border-radius: 24px;
-          transition: background-color 0.3s ease;
-        }
+        li {
+          width: 100%;
 
-        h3 {
-          display: block;
-          padding-left: 16px;
+          a.inner_icon_wrapper {
+            width: 100%;
+            justify-content: flex-start;
+            box-sizing: border-box;
+
+            &:hover {
+              background-color: var(--ig-secondary-background);
+              cursor: pointer;
+              border-radius: 24px;
+              transition: background-color 0.3s ease;
+            }
+
+            h3 {
+              display: block;
+              padding-left: 16px;
+            }
+          }
         }
       }
     }

@@ -2,10 +2,19 @@ html {
   background-color: var(--ig-secondary-background);
 }
 
-body {
+body, #root {
   background-color: var(--ig-primary-background);
 }
 
 h1, span, h2, p {
   color: var(--text-color);
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 56px;
 }
