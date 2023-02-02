@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const LightMessageIcon = () => {
+const MessageIcon = () => {
   return (
     <svg
       aria-label="Reels"
@@ -61,4 +61,4 @@ const LightMessageIcon = () => {
   )
 }
 
-export default LightMessageIcon
+export default MessageIcon

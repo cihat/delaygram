@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const LightSearchIcon = () => {
+const SearchIcon = () => {
   return (
     <svg
       aria-label="Explore"
@@ -36,4 +36,4 @@ const LightSearchIcon = () => {
   )
 }
 
-export default LightSearchIcon
+export default SearchIcon

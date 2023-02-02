@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './SideBar.module.scss'
 
-import { HomeIcon, MessageIcon, SearchIcon, VideoIcon, InstagramIcon } from 'src/assets/icons'
+import { HomeIcon, MessageIcon, SearchIcon, VideoIcon, DelaygramLogo } from 'src/assets/icons'
 
 import cn from 'classnames'
 
@@ -9,7 +9,7 @@ const SideBar: React.FC = () => {
   return (
     <div className={cn('', styles.container)}>
       <div className={styles.logo_wrapper}>
-        <InstagramIcon />
+        <DelaygramLogo />
       </div>
       {/* Need refactoring here(dynamic icons) */}
       <div className={styles.icons_wrapper}>

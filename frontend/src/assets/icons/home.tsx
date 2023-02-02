@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const LightHomeIcon = () => {
+const HomeIcon = () => {
   return (
     <svg
       aria-label="Home"
@@ -18,4 +18,4 @@ const LightHomeIcon = () => {
   )
 }
 
-export default LightHomeIcon
+export default HomeIcon

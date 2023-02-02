@@ -1,5 +1,5 @@
 {
-  "name": "instagram-clone",
+  "name": "delaygram",
   "version": "1.0.1",
   "private": true,
   "description": "Instagram clone with React, Reduxt, and Node.js/Express",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cihat/instagram-clone.git"
+    "url": "git+https://github.com/cihat/delaygram.git"
   },
   "keywords": [],
   "author": "Cihat Salik <cihatsalik1@gmail.com>",

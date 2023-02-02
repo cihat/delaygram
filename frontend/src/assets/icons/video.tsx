@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const LightVideoIcon = () => {
+const VideoIcon = () => {
   return (
     <svg
       aria-label="Messenger"
@@ -28,4 +28,4 @@ const LightVideoIcon = () => {
   )
 }
 
-export default LightVideoIcon
+export default VideoIcon
