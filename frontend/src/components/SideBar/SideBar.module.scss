@@ -16,8 +16,8 @@
   border-top: 1px solid var(--ig-separator);
 
   .logo_wrapper {
-      display: none;
-    }
+    display: none;
+  }
 
   .icons_wrapper {
     display: flex;
@@ -61,6 +61,12 @@
         padding: 12px;
         margin: 4px 0;
 
+        &:hover {
+          background-color: var(--ig-secondary-background);
+          border-radius: 50%;
+          cursor: pointer;
+        }
+
         .icon,
         svg {
           box-sizing: content-box;
@@ -93,6 +99,16 @@
       align-items: flex-start;
 
       > div.inner_icon_wrapper {
+        width: 100%;
+        justify-content: flex-start;
+
+        &:hover {
+          background-color: var(--ig-secondary-background);
+          cursor: pointer;
+          border-radius: 24px;
+          transition: background-color 0.3s ease;
+        }
+
         h3 {
           display: block;
           padding-left: 16px;
